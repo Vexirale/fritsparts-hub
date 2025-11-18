@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Wrench, Users, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
+import logo from "@/assets/fritsparts-logo.png";
 
 const Home = () => {
   return (
@@ -21,27 +22,25 @@ const Home = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-glow-pulse">
-            FritsParts
-          </h1>
+          <img src={logo} alt="FritsParts Logo" className="h-24 md:h-32 mx-auto mb-6 animate-glow-pulse" />
           <p className="text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl mx-auto">
-            Car Parts & Knowledge for the Modern Era
+            Auto-onderdelen & Kennis voor het Moderne Tijdperk
           </p>
           <p className="text-lg text-muted-foreground mb-12 max-w-xl mx-auto">
-            Exploring automotive excellence through innovation and expertise. A MAVO4 Profielwerkstuk journey.
+            Verkenning van automotive excellentie door innovatie en expertise. Een MAVO4 Profielwerkstuk reis.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/products">
               <Button size="lg" className="glass-strong glow-hover text-lg px-8">
-                Explore Products
+                Verken Producten
                 <ArrowRight className="ml-2" size={20} />
               </Button>
             </Link>
             <Link to="/project">
               <Button size="lg" variant="outline" className="glass-strong glow-hover text-lg px-8">
-                Our Project
+                Ons Project
               </Button>
             </Link>
           </div>
@@ -59,17 +58,17 @@ const Home = () => {
       <section className="py-20 container mx-auto px-4">
         <div className="glass-strong rounded-3xl p-8 md:p-12 max-w-4xl mx-auto glow-hover">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-            Welcome to <span className="text-primary">FritsParts</span>
+            Welkom bij <span className="text-primary">FritsParts</span>
           </h2>
           <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-            FritsParts is more than just a collection of automotive components – it's a comprehensive exploration
-            of the automotive industry, created as part of our MAVO4 Profielwerkstuk. We've combined technical
-            knowledge with modern web design to showcase the essential parts that keep vehicles running smoothly.
+            FritsParts is meer dan alleen een verzameling auto-onderdelen – het is een uitgebreide verkenning
+            van de auto-industrie, gemaakt als onderdeel van ons MAVO4 Profielwerkstuk. We hebben technische
+            kennis gecombineerd met modern webdesign om de essentiële onderdelen te tonen die voertuigen soepel laten rijden.
           </p>
           <p className="text-lg text-foreground/80 leading-relaxed">
-            Our mission is to educate, inspire, and demonstrate the importance of quality car parts in maintaining
-            vehicle performance and safety. Through this project, we've gained invaluable insights into both
-            automotive engineering and digital presentation.
+            Onze missie is om te onderwijzen, inspireren en het belang van kwaliteitsonderdelen aan te tonen bij het
+            behouden van voertuigprestaties en veiligheid. Door dit project hebben we waardevolle inzichten verkregen in zowel
+            autotechniek als digitale presentatie.
           </p>
         </div>
       </section>
@@ -77,7 +76,7 @@ const Home = () => {
       {/* Quick Links */}
       <section className="py-20 container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          Explore Our <span className="text-primary">Sections</span>
+          Verken Onze <span className="text-primary">Secties</span>
         </h2>
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {/* Products Card */}
@@ -86,9 +85,9 @@ const Home = () => {
               <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <Wrench className="text-primary" size={32} />
               </div>
-              <h3 className="text-2xl font-bold mb-3">Products</h3>
+              <h3 className="text-2xl font-bold mb-3">Producten</h3>
               <p className="text-muted-foreground">
-                Discover our curated selection of essential car parts
+                Ontdek onze zorgvuldig geselecteerde essentiële auto-onderdelen
               </p>
             </div>
           </Link>
@@ -99,9 +98,9 @@ const Home = () => {
               <div className="w-16 h-16 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <Users className="text-accent" size={32} />
               </div>
-              <h3 className="text-2xl font-bold mb-3">Creators</h3>
+              <h3 className="text-2xl font-bold mb-3">Makers</h3>
               <p className="text-muted-foreground">
-                Meet the team behind this innovative project
+                Ontmoet het team achter dit innovatieve project
               </p>
             </div>
           </Link>
@@ -112,9 +111,9 @@ const Home = () => {
               <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <BookOpen className="text-primary" size={32} />
               </div>
-              <h3 className="text-2xl font-bold mb-3">Our Project</h3>
+              <h3 className="text-2xl font-bold mb-3">Ons Project</h3>
               <p className="text-muted-foreground">
-                Learn about our research and development process
+                Leer over ons onderzoeks- en ontwikkelingsproces
               </p>
             </div>
           </Link>

@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/fritsparts-logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,8 +9,8 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Products", path: "/products" },
-    { name: "Creators", path: "/creators" },
+    { name: "Producten", path: "/products" },
+    { name: "Makers", path: "/creators" },
     { name: "Project", path: "/project" },
     { name: "Contact", path: "/contact" },
   ];
@@ -21,8 +22,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent hover:scale-105 transition-transform">
-            FritsParts
+          <Link to="/" className="flex items-center hover:scale-105 transition-transform">
+            <img src={logo} alt="FritsParts Logo" className="h-10" />
           </Link>
 
           {/* Desktop Navigation */}

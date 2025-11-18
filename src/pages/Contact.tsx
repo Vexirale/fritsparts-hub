@@ -18,8 +18,8 @@ const Contact = () => {
     
     // Simulate form submission
     toast({
-      title: "Message Sent!",
-      description: "Thank you for contacting us. We'll get back to you soon.",
+      title: "Bericht Verzonden!",
+      description: "Bedankt voor je bericht. We nemen snel contact met je op.",
     });
 
     // Reset form
@@ -39,21 +39,21 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Get in <span className="text-primary">Touch</span>
+            Neem <span className="text-primary">Contact Op</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Have questions about our project? We'd love to hear from you
+            Vragen over ons project? We horen graag van je
           </p>
         </div>
 
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8">
           {/* Contact Form */}
           <div className="glass-strong rounded-2xl p-8 md:p-12 glow-hover">
-            <h2 className="text-2xl font-bold mb-6">Send us a Message</h2>
+            <h2 className="text-2xl font-bold mb-6">Stuur Ons Een Bericht</h2>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
-                  Your Name
+                  Jouw Naam
                 </label>
                 <Input
                   id="name"
@@ -61,7 +61,7 @@ const Contact = () => {
                   type="text"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="John Doe"
+                  placeholder="Jan Jansen"
                   required
                   className="glass bg-background/50"
                 />
@@ -69,7 +69,7 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="email" className="block text-sm font-medium mb-2">
-                  Email Address
+                  E-mailadres
                 </label>
                 <Input
                   id="email"
@@ -77,7 +77,7 @@ const Contact = () => {
                   type="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="john@example.com"
+                  placeholder="jan@voorbeeld.nl"
                   required
                   className="glass bg-background/50"
                 />
@@ -85,14 +85,14 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2">
-                  Your Message
+                  Jouw Bericht
                 </label>
                 <Textarea
                   id="message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Tell us about your inquiry..."
+                  placeholder="Vertel ons over je vraag..."
                   rows={6}
                   required
                   className="glass bg-background/50 resize-none"
@@ -101,7 +101,7 @@ const Contact = () => {
 
               <Button type="submit" className="w-full glass-strong glow-hover" size="lg">
                 <Send className="mr-2" size={18} />
-                Send Message
+                Verstuur Bericht
               </Button>
             </form>
           </div>
@@ -115,9 +115,9 @@ const Contact = () => {
                   <Mail className="text-primary" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">Email Us</h3>
-                  <p className="text-muted-foreground">info@fritsparts.com</p>
-                  <p className="text-muted-foreground">support@fritsparts.com</p>
+                  <h3 className="text-lg font-semibold mb-1">E-mail Ons</h3>
+                  <p className="text-muted-foreground">info@fritsparts.nl</p>
+                  <p className="text-muted-foreground">support@fritsparts.nl</p>
                 </div>
               </div>
             </div>
@@ -128,9 +128,9 @@ const Contact = () => {
                   <Phone className="text-accent" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">Call Us</h3>
+                  <h3 className="text-lg font-semibold mb-1">Bel Ons</h3>
                   <p className="text-muted-foreground">+31 (0) 123 456 789</p>
-                  <p className="text-sm text-muted-foreground/70 mt-1">Mon-Fri, 9AM-5PM</p>
+                  <p className="text-sm text-muted-foreground/70 mt-1">Ma-Vr, 9:00-17:00</p>
                 </div>
               </div>
             </div>
@@ -141,20 +141,20 @@ const Contact = () => {
                   <MapPin className="text-primary" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">Visit Us</h3>
+                  <h3 className="text-lg font-semibold mb-1">Bezoek Ons</h3>
                   <p className="text-muted-foreground">MAVO School Campus</p>
-                  <p className="text-muted-foreground">Amsterdam, Netherlands</p>
+                  <p className="text-muted-foreground">Amsterdam, Nederland</p>
                 </div>
               </div>
             </div>
 
             {/* Additional Info */}
             <div className="glass-strong rounded-2xl p-8">
-              <h3 className="text-xl font-bold mb-4">About This Project</h3>
+              <h3 className="text-xl font-bold mb-4">Over Dit Project</h3>
               <p className="text-foreground/80 leading-relaxed">
-                FritsParts is a MAVO4 profielwerkstuk created to showcase automotive knowledge
-                and modern web design. We're always happy to discuss our project, answer
-                questions, or connect with fellow automotive enthusiasts.
+                FritsParts is een MAVO4 profielwerkstuk gemaakt om auto-kennis
+                en modern webdesign te tonen. We bespreken graag ons project, beantwoorden
+                vragen, of maken contact met mede-autoliefhebbers.
               </p>
             </div>
           </div>

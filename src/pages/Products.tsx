@@ -9,36 +9,36 @@ import ledHeadlight from "@/assets/led-headlight.jpg";
 const products = [
   {
     id: 1,
-    name: "Performance Brake Discs",
-    description: "High-performance ventilated brake discs designed for optimal heat dissipation and superior stopping power. Essential for safe vehicle operation under demanding conditions.",
+    name: "Prestatie Remschijven",
+    description: "Hoogwaardige geventileerde remschijven ontworpen voor optimale warmteafvoer en superieure remkracht. Essentieel voor veilige voertuigbediening onder veeleisende omstandigheden.",
     price: "€149.99",
     image: brakeDisc,
   },
   {
     id: 2,
-    name: "Premium Air Filter",
-    description: "Advanced filtration technology that protects your engine from harmful particles while maintaining optimal airflow for better performance and fuel efficiency.",
+    name: "Premium Luchtfilter",
+    description: "Geavanceerde filtertechnologie die uw motor beschermt tegen schadelijke deeltjes terwijl optimale luchtstroom behouden blijft voor betere prestaties en brandstofefficiëntie.",
     price: "€29.99",
     image: airFilter,
   },
   {
     id: 3,
-    name: "Platinum Spark Plugs",
-    description: "Long-lasting platinum-tipped spark plugs ensuring reliable ignition, improved fuel economy, and reduced emissions for modern engines.",
+    name: "Platina Bougies",
+    description: "Langdurige platina-tipped bougies die betrouwbare ontsteking, verbeterde brandstofeconomie en verminderde emissies voor moderne motoren garanderen.",
     price: "€39.99",
     image: sparkPlugs,
   },
   {
     id: 4,
-    name: "High-Flow Oil Pump",
-    description: "Engineered for consistent oil pressure and flow, this pump ensures proper lubrication throughout your engine, extending its lifespan and performance.",
+    name: "High-Flow Oliepomp",
+    description: "Ontworpen voor consistente oliedruk en -stroom, deze pomp zorgt voor goede smering in uw hele motor, waardoor de levensduur en prestaties worden verlengd.",
     price: "€189.99",
     image: oilPump,
   },
   {
     id: 5,
-    name: "LED Headlight Set",
-    description: "Ultra-bright LED technology providing superior visibility and safety. Energy-efficient design with a modern aesthetic that enhances your vehicle's appearance.",
+    name: "LED Koplamp Set",
+    description: "Ultra-heldere LED-technologie die superieur zicht en veiligheid biedt. Energiezuinig ontwerp met een moderne uitstraling die het uiterlijk van uw voertuig verbetert.",
     price: "€299.99",
     image: ledHeadlight,
   },
@@ -51,10 +51,10 @@ const Products = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Our <span className="text-primary">Products</span>
+            Onze <span className="text-primary">Producten</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Premium automotive parts engineered for performance, reliability, and longevity
+            Premium auto-onderdelen ontworpen voor prestaties, betrouwbaarheid en duurzaamheid
           </p>
         </div>
 
@@ -94,7 +94,7 @@ const Products = () => {
                   </span>
                   <Button className="glass glow-hover">
                     <ShoppingCart size={18} className="mr-2" />
-                    Learn More
+                    Meer Info
                   </Button>
                 </div>
               </div>
@@ -104,11 +104,11 @@ const Products = () => {
 
         {/* Additional Info */}
         <div className="glass-strong rounded-2xl p-8 mt-16 max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">Quality You Can Trust</h2>
+          <h2 className="text-2xl font-bold mb-4">Kwaliteit Waar Je Op Kunt Vertrouwen</h2>
           <p className="text-foreground/80 leading-relaxed">
-            All our featured products represent the high standards of modern automotive engineering.
-            Each component has been carefully selected to demonstrate the critical role quality parts
-            play in vehicle performance, safety, and longevity.
+            Al onze aanbevolen producten vertegenwoordigen de hoge normen van moderne autotechniek.
+            Elk onderdeel is zorgvuldig geselecteerd om de kritieke rol te demonstreren die kwaliteitsonderdelen
+            spelen in voertuigprestaties, veiligheid en duurzaamheid.
           </p>
         </div>
       </div>

@@ -5,26 +5,26 @@ const sections = [
   {
     id: 1,
     icon: Target,
-    title: "What is FritsParts?",
-    content: "FritsParts is a comprehensive digital platform created as part of our MAVO4 profielwerkstuk. It showcases essential automotive components while demonstrating modern web design principles. Our project bridges the gap between technical automotive knowledge and accessible digital education, making complex concepts understandable for everyone.",
+    title: "Wat is FritsParts?",
+    content: "FritsParts is een uitgebreid digitaal platform gemaakt als onderdeel van ons MAVO4 profielwerkstuk. Het toont essentiële auto-onderdelen terwijl moderne webdesign principes worden gedemonstreerd. Ons project overbrugt de kloof tussen technische automotive kennis en toegankelijke digitale educatie, waardoor complexe concepten voor iedereen begrijpelijk worden.",
   },
   {
     id: 2,
     icon: Lightbulb,
-    title: "Why We Chose This Project",
-    content: "We selected automotive parts as our focus because of their critical role in vehicle safety and performance. This topic allowed us to explore engineering principles, market analysis, and technical communication. The combination of practical automotive knowledge with cutting-edge web development made this an ideal profielwerkstuk that showcases both technical and creative skills.",
+    title: "Waarom We Dit Project Kozen",
+    content: "We selecteerden auto-onderdelen als onze focus vanwege hun kritieke rol in voertuigveiligheid en prestaties. Dit onderwerp stelde ons in staat om technische principes, marktanalyse en technische communicatie te verkennen. De combinatie van praktische automotive kennis met geavanceerde webontwikkeling maakte dit een ideaal profielwerkstuk dat zowel technische als creatieve vaardigheden toont.",
   },
   {
     id: 3,
     icon: Search,
-    title: "Our Research Process",
-    content: "Our research involved studying automotive engineering fundamentals, analyzing current market trends, and consulting industry resources. We examined how different car parts function, their impact on vehicle performance, and the latest technological innovations. This thorough investigation formed the foundation of our educational content and product selection.",
+    title: "Ons Onderzoeksproces",
+    content: "Ons onderzoek omvatte het bestuderen van automotive engineering fundamenten, het analyseren van huidige markttrends en het raadplegen van industriële bronnen. We onderzochten hoe verschillende auto-onderdelen functioneren, hun impact op voertuigprestaties, en de nieuwste technologische innovaties. Dit grondige onderzoek vormde de basis van onze educatieve content en productselectie.",
   },
   {
     id: 4,
     icon: TrendingUp,
-    title: "What We Learned",
-    content: "Through this project, we gained invaluable insights into automotive technology, web development, and project management. We learned how to conduct thorough research, present complex information clearly, and create engaging digital experiences. Most importantly, we discovered how to work effectively as a team, combining our individual strengths to achieve a common goal.",
+    title: "Wat We Geleerd Hebben",
+    content: "Door dit project hebben we waardevolle inzichten verkregen in autotechnologie, webontwikkeling en projectmanagement. We leerden hoe we grondig onderzoek moeten uitvoeren, complexe informatie helder moeten presenteren en boeiende digitale ervaringen moeten creëren. Het belangrijkste is dat we ontdekten hoe we effectief als team kunnen werken, door onze individuele sterktes te combineren om een gemeenschappelijk doel te bereiken.",
   },
 ];
 
@@ -58,10 +58,10 @@ const Project = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Our <span className="text-primary">Project Explanation</span>
+            Ons <span className="text-primary">Project Uitleg</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            The story behind FritsParts – from concept to completion
+            Het verhaal achter FritsParts – van concept tot voltooiing
           </p>
         </div>
 
@@ -113,13 +113,13 @@ const Project = () => {
           <p className="text-lg text-foreground/80 leading-relaxed mb-4">
             FritsParts represents more than just a school project – it's a testament to what
             can be achieved through dedication, teamwork, and a passion for learning. This
-            profielwerkstuk has equipped us with valuable skills in research, design, and
-            technical communication.
+            profielwerkstuk heeft ons waardevolle vaardigheden opgeleverd in onderzoek, design en
+            technische communicatie.
           </p>
           <p className="text-lg text-foreground/80 leading-relaxed">
-            As we conclude this journey, we carry forward the lessons learned and the
-            confidence to tackle future challenges. FritsParts will remain a showcase of
-            our capabilities and our commitment to excellence.
+            Terwijl we deze reis afsluiten, nemen we de geleerde lessen en het
+            vertrouwen mee om toekomstige uitdagingen aan te gaan. FritsParts zal een showcase blijven van
+            onze capaciteiten en onze toewijding aan excellentie.
           </p>
         </div>
       </div>

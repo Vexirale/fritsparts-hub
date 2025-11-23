@@ -143,7 +143,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Bezoek Ons</h3>
                   <p className="text-muted-foreground">Frits Philips Lyceum</p>
-                  <p className="text-muted-foreground">Eindhove, Netherlands</p>
+                  <p className="text-muted-foreground">Eindhoven, Netherlands</p>
                                   <label htmlFor="message" className="block text-sm font-medium mb-2">
                   DIT IS GEEN REPERATIE LOCATIE, DIT IS DE LOCATIE VAN DE SCHOOL.
                 </label>

@@ -73,7 +73,7 @@ const Creators = () => {
                 {/* Social Links */}
                 <div className="flex gap-3 pt-4 border-t border-border/50">
                   <a
-                    href="20725+PWS@leerling.fritsphilips.eu"
+                    href="mailto:20725+PWS@leerling.fritsphilips.eu"
                     className="p-2 rounded-lg glass hover:bg-primary/20 transition-colors"
                     aria-label="Email"
                   >

@@ -24,7 +24,7 @@ const Home = () => {
         <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
           <div className="mb-6 flex justify-center">
             <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-primary/20 flex items-center justify-center animate-glow-pulse drop-shadow-[0_0_30px_rgba(0,112,210,0.6)]">
-              <Target className="text-primary" size={64} strokeWidth={1.5} />
+              <Target className="text-primary" size={64} strokeWidth={2} />
             </div>
           </div>
           <p className="text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl mx-auto">

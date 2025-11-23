@@ -116,8 +116,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">E-mail Ons</h3>
-                  <p className="text-muted-foreground">info@fritsparts.nl</p>
-                  <p className="text-muted-foreground">support@fritsparts.nl</p>
+                  <p className="text-muted-foreground">20725+PWS@leerling.fritsphilips.eu</p>
+                  <p className="text-muted-foreground"></p>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Bel Ons</h3>
-                  <p className="text-muted-foreground">+31 (0) 123 456 789</p>
+                  <p className="text-muted-foreground">+31 6 19 97 82 17</p>
                   <p className="text-sm text-muted-foreground/70 mt-1">Ma-Vr, 9:00-17:00</p>
                 </div>
               </div>
@@ -142,8 +142,11 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Bezoek Ons</h3>
-                  <p className="text-muted-foreground">MAVO School Campus</p>
-                  <p className="text-muted-foreground">Amsterdam, Nederland</p>
+                  <p className="text-muted-foreground">Frits Philips Lyceum</p>
+                  <p className="text-muted-foreground">Eindhove, Netherlands</p>
+                                  <label htmlFor="message" className="block text-sm font-medium mb-2">
+                  DIT IS GEEN REPERATIE LOCATIE, DIT IS DE LOCATIE VAN DE SCHOOL.
+                </label>
                 </div>
               </div>
             </div>
@@ -152,9 +155,9 @@ const Contact = () => {
             <div className="glass-strong rounded-2xl p-8">
               <h3 className="text-xl font-bold mb-4">Over Dit Project</h3>
               <p className="text-foreground/80 leading-relaxed">
-                FritsParts is een MAVO4 profielwerkstuk gemaakt om auto-kennis
+                FritsParts is een MAVO 4 profielwerkstuk gemaakt om auto-kennis
                 en modern webdesign te tonen. We bespreken graag ons project, beantwoorden
-                vragen, of maken contact met mede-autoliefhebbers.
+                vragen daarom hebben wij deze contact forum gebouwd!
               </p>
             </div>
           </div>

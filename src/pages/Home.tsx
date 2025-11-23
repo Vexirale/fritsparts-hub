@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Wrench, Users, BookOpen } from "lucide-react";
+import { ArrowRight, Wrench, Users, BookOpen, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
 import logo from "@/assets/fritsparts-logo.png";
-import philipsLogo from "@/assets/philips-logo.png";
 
 const Home = () => {
   return (
@@ -23,7 +22,11 @@ const Home = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
-          <img src={philipsLogo} alt="Philips Logo" className="h-24 md:h-32 mx-auto mb-6 animate-glow-pulse drop-shadow-[0_0_30px_rgba(0,112,210,0.6)]" />
+          <div className="mb-6 flex justify-center">
+            <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-primary/20 flex items-center justify-center animate-glow-pulse drop-shadow-[0_0_30px_rgba(0,112,210,0.6)]">
+              <Target className="text-primary" size={64} strokeWidth={2.5} />
+            </div>
+          </div>
           <p className="text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl mx-auto">
             Auto-onderdelen & Kennis voor het Moderne Tijdperk
           </p>

@@ -3,23 +3,23 @@ import { Mail, Linkedin, Github } from "lucide-react";
 const creators = [
   {
     id: 1,
-    name: "Maker Naam 1",
-    role: "Projectleider & Onderzoek",
-    bio: "Gepassioneerd over autotechnologie en innovatie, leidt het onderzoek van ons team naar moderne auto-onderdelen en hun impact op voertuigprestaties. Toegewijd aan het tot leven brengen van technische kennis via digitale media.",
+    name: "Nadir Toujaa",
+    role: "Projectleider & WebDesign",
+    bio: "Placeholder",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=creator1&backgroundColor=00bfff",
   },
   {
     id: 2,
-    name: "Maker Naam 2",
-    role: "Design & Ontwikkeling",
-    bio: "Specialist in webdesign en gebruikerservaring, verantwoordelijk voor de visuele identiteit van FritsParts. Combineert creativiteit met technische expertise om boeiende en informatieve digitale ervaringen te creëren.",
+    name: "Danny Tran",
+    role: "Onderzoek & Presentatie",
+    bio: "PlaceHolder",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=creator2&backgroundColor=00bfff",
   },
   {
     id: 3,
-    name: "Maker Naam 3",
-    role: "Content & Analyse",
-    bio: "Expert in autosystemen en technisch schrijven, verantwoordelijk voor het onderzoeken en presenteren van complexe automotive concepten op een toegankelijke manier. Zorgt voor nauwkeurigheid en diepgang in alle projectcontent.",
+    name: "Talha Demirci",
+    role: "Onderzoek & Presentatie & Planning",
+    bio: "Placeholder",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=creator3&backgroundColor=00bfff",
   },
 ];
@@ -73,25 +73,11 @@ const Creators = () => {
                 {/* Social Links */}
                 <div className="flex gap-3 pt-4 border-t border-border/50">
                   <a
-                    href="#"
+                    href="20725+PWS@leerling.fritsphilips.eu"
                     className="p-2 rounded-lg glass hover:bg-primary/20 transition-colors"
                     aria-label="Email"
                   >
                     <Mail size={18} />
-                  </a>
-                  <a
-                    href="#"
-                    className="p-2 rounded-lg glass hover:bg-primary/20 transition-colors"
-                    aria-label="LinkedIn"
-                  >
-                    <Linkedin size={18} />
-                  </a>
-                  <a
-                    href="#"
-                    className="p-2 rounded-lg glass hover:bg-primary/20 transition-colors"
-                    aria-label="Github"
-                  >
-                    <Github size={18} />
                   </a>
                 </div>
               </div>

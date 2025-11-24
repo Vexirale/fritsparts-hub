@@ -17,14 +17,14 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://github.com/Vexirale/fritsparts-hub"
               className="p-2 rounded-lg glass hover:bg-primary/20 transition-colors glow-hover"
               aria-label="Github"
             >
               <Github size={20} />
             </a>
             <a
-              href="#"
+              href="mailto:20725+PWS@leerling.fritsphilips.eu"
               className="p-2 rounded-lg glass hover:bg-primary/20 transition-colors glow-hover"
               aria-label="Email"
             >

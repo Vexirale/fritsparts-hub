@@ -109,7 +109,7 @@ const Project = () => {
 
         {/* Conclusion */}
         <div className="glass-strong rounded-2xl p-8 md:p-12 mt-16 max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">Looking Forward</h2>
+          <h2 className="text-3xl font-bold mb-6">Als we in de toekomst kijken..</h2>
           <p className="text-lg text-foreground/80 leading-relaxed mb-4">
             FritsParts represents more than just a school project – it's a testament to what
             can be achieved through dedication, teamwork, and a passion for learning. This

@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="text-center md:text-left flex flex-col items-center md:items-start gap-2">
             <img src={logo} alt="FritsParts Logo" className="h-12" />
             <p className="text-muted-foreground text-sm">
-              MAVO4 Profielwerkstuk © 2025
+              Mavo 4 PWS • Frits Philips Lyceum © 2025
             </p>
           </div>
 

@@ -4,7 +4,7 @@ import brakeDisc from "@/assets/brake-disc.jpg";
 import airFilter from "@/assets/air-filter.jpg";
 import sparkPlugs from "@/assets/spark-plugs.jpg";
 import oilPump from "@/assets/oil-pump.jpg";
-import placeholder from "@/assets/fritsparts-logo.jpg";
+import placeholder from "@/assets/fritsparts-logo.png";
 import ledHeadlight from "@/assets/led-headlight.jpg";
 
 const products = [

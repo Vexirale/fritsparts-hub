@@ -1,5 +1,6 @@
 import { ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useToast } from "@/hooks/use-toast";
 import brakeDisc from "@/assets/brake-disc.jpg";
 import airFilter from "@/assets/air-filter.jpg";
 import sparkPlugs from "@/assets/spark-plugs.jpg";
@@ -53,6 +54,15 @@ const products = [
 ];
 
 const Products = () => {
+  const { toast } = useToast();
+
+  const handleMoreInfo = () => {
+    toast({
+      title: "Oops! Error 503 :(",
+      description: "Helaas hebben we veel te weinig tijd gehad om de backend van het mail systeem te bouwen.. Als je contact op wilt nemen, mail dan: 20725+PWS@leerling.fritsphilips.eu",
+    });
+  };
+
   return (
     <div className="min-h-screen pt-24 pb-12">
       <div className="container mx-auto px-4">
@@ -100,7 +110,7 @@ const Products = () => {
                   <span className="text-2xl font-bold text-primary">
                     {product.price}
                   </span>
-                  <Button className="glass glow-hover">
+                  <Button className="glass glow-hover" onClick={handleMoreInfo}>
                     <ShoppingCart size={18} className="mr-2" />
                     Meer Info
                   </Button>

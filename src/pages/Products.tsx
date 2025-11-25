@@ -4,6 +4,7 @@ import brakeDisc from "@/assets/brake-disc.jpg";
 import airFilter from "@/assets/air-filter.jpg";
 import sparkPlugs from "@/assets/spark-plugs.jpg";
 import oilPump from "@/assets/oil-pump.jpg";
+import placeholder from "@/assets/fritsparts-logo.jpg";
 import ledHeadlight from "@/assets/led-headlight.jpg";
 
 const products = [
@@ -41,6 +42,13 @@ const products = [
     description: "Ultra-heldere LED-technologie die superieur zicht en veiligheid biedt. Energiezuinig ontwerp met een moderne uitstraling die het uiterlijk van uw voertuig verbetert.",
     price: "€299.99",
     image: ledHeadlight,
+  },
+  {
+    id: 5,
+    name: "Placeholder",
+    description: "Lorep Ipsum",
+    price: "€420.67",
+    image: placeholder,
   },
 ];
 

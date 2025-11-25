@@ -5,14 +5,14 @@ const sections = [
   {
     id: 1,
     icon: Target,
-    title: "Wat is FritsParts?",
-    content: "FritsParts is een uitgebreid digitaal platform gemaakt als onderdeel van ons MAVO4 profielwerkstuk. Het toont essentiële auto-onderdelen terwijl moderne webdesign principes worden gedemonstreerd. Ons project overbrugt de kloof tussen technische automotive kennis en toegankelijke digitale educatie, waardoor complexe concepten voor iedereen begrijpelijk worden.",
+    title: "Wat is FritsParts.com?",
+    content: "FritsParts.com is een uitgebreid digitale website gemaakt als onderdeel van ons MAVO 4 profielwerkstuk. Het toont essentiële auto-onderdelen terwijl moderne webdesign principes worden gedemonstreerd. Ons project overbrugt de kloof tussen technische automotive kennis en toegankelijke digitale educatie, waardoor complexe concepten voor iedereen begrijpelijk worden.",
   },
   {
     id: 2,
     icon: Lightbulb,
     title: "Waarom We Dit Project Kozen",
-    content: "We selecteerden auto-onderdelen als onze focus vanwege hun kritieke rol in voertuigveiligheid en prestaties. Dit onderwerp stelde ons in staat om technische principes, marktanalyse en technische communicatie te verkennen. De combinatie van praktische automotive kennis met geavanceerde webontwikkeling maakte dit een ideaal profielwerkstuk dat zowel technische als creatieve vaardigheden toont.",
+    content: "We selecteerden auto-onderdelen als onze focus vanwege hun kritieke rol in voertuigveiligheid en prestaties (en zeker omdat wij auto's leuk vinden). Dit onderwerp stelde ons in staat om technische principes, marktanalyse en technische communicatie te verkennen. De combinatie van praktische automotive kennis met geavanceerde webontwikkeling maakte dit een ideaal profielwerkstuk dat zowel technische als creatieve vaardigheden laat zien.",
   },
   {
     id: 3,
@@ -61,7 +61,7 @@ const Project = () => {
             Ons <span className="text-primary">Project Uitleg</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Het verhaal achter FritsParts – van concept tot voltooiing
+            Het verhaal achter FritsParts – van idee tot concept
           </p>
         </div>
 
@@ -111,15 +111,16 @@ const Project = () => {
         <div className="glass-strong rounded-2xl p-8 md:p-12 mt-16 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Als we in de toekomst kijken..</h2>
           <p className="text-lg text-foreground/80 leading-relaxed mb-4">
-            FritsParts represents more than just a school project – it's a testament to what
-            can be achieved through dedication, teamwork, and a passion for learning. This
-            profielwerkstuk heeft ons waardevolle vaardigheden opgeleverd in onderzoek, design en
-            technische communicatie.
+            FritsParts.com is meer dan een profielwerkstuk projectje, het is een concept van wat je
+            kan bereiken door dedicatie, teamwork, passie te hebben en niet snel op te geven. 
+            Onze profielwerkstuk heeft ons veel laen leren over hoe het technische deel
+            van websites werken, hoe we dingen verkopen en te leren communiceren
           </p>
           <p className="text-lg text-foreground/80 leading-relaxed">
-            Terwijl we deze reis afsluiten, nemen we de geleerde lessen en het
-            vertrouwen mee om toekomstige uitdagingen aan te gaan. FritsParts zal een showcase blijven van
-            onze capaciteiten en onze toewijding aan excellentie.
+            Terwijl dit het einde lijkt van deze website, nemen we alles mee van
+            wat we in onze project hebben ingestopt, de lessen en de uitdagingen natuurlijk ook.
+            FritsParts.com zou voor nu gewoon een concep blijven, maar mischien veranderen
+            we dit concept naar werkelijkeid.
           </p>
         </div>
       </div>

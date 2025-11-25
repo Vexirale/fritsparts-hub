@@ -59,7 +59,7 @@ const Products = () => {
   const handleMoreInfo = () => {
     toast({
       title: "Oops! Error 503 :(",
-      description: "Helaas hebben we veel te weinig tijd gehad om de backend van het mail systeem te bouwen.. Als je contact op wilt nemen, mail dan: 20725+PWS@leerling.fritsphilips.eu",
+      description: "Dit is een concept website.. En wij verkopen helaas geen echte spullen.. Sorry voor het ongemak!!",
     });
   };
 

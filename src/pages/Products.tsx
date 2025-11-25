@@ -44,7 +44,7 @@ const products = [
     image: ledHeadlight,
   },
   {
-    id: 5,
+    id: 6,
     name: "Placeholder",
     description: "Lorep Ipsum",
     price: "€420.67",

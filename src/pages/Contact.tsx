@@ -18,8 +18,8 @@ const Contact = () => {
     
     // Simulate form submission
     toast({
-      title: "Bericht Verzonden!",
-      description: "Bedankt voor je bericht. We nemen snel contact met je op.",
+      title: "Oops! Error 503 :(",
+      description: "Helaas hebben we veel te weinig tijd gehad om de backend van het mail systeem te bouwen.. Als je contact op wilt nemen, mail dan: 20725+PWS@leerling.fritsphilips.eu",
     });
 
     // Reset form

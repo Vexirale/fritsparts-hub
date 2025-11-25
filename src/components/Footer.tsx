@@ -12,6 +12,17 @@ const Footer = () => {
             <p className="text-muted-foreground text-sm">
               Mavo 4 PWS • Frits Philips Lyceum © 2025
             </p>
+            <p className="text-muted-foreground text-xs">
+              Part of{" "}
+              <a 
+                href="https://vexirale.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors underline"
+              >
+                vexirale.com
+              </a>
+            </p>
           </div>
 
           {/* Social Links */}

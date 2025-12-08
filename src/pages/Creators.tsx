@@ -1,4 +1,7 @@
 import { Mail, Linkedin, Github } from "lucide-react";
+import Nadir from "@/assets/Nadir.jpg";
+import Talha from "@/assets/Talha.jpg";
+import Danny from "@/assets/Danny.jpg";
 
 const creators = [
   {
@@ -6,21 +9,21 @@ const creators = [
     name: "Nadir Toujaa",
     role: "Projectleider & WebDesign",
     bio: "Placeholder",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=creator1&backgroundColor=00bfff",
+    avatar: Nadir,
   },
   {
     id: 2,
     name: "Danny Tran",
     role: "Onderzoek & Presentatie",
-    bio: "PlaceHolder",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=creator2&backgroundColor=00bfff",
+    bio: "Ik ben Danny Tran, Ik ben 16 jaar oud ik zit op mavo 4 en doe voetbal en gamen in mijn vrije tijd. Voor de presentatie heb ik de info opgezocht en de foto's en parts voor de website zodat nadir ze kon bewerken. Mijn specialiteiten zijn onderzoeken en presenteren.",
+    avatar: Danny,
   },
   {
     id: 3,
     name: "Talha Demirci",
     role: "Onderzoek & Presentatie & Planning",
     bio: "Placeholder",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=creator3&backgroundColor=00bfff",
+    avatar: Talha,
   },
 ];
 

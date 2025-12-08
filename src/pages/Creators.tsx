@@ -8,7 +8,7 @@ const creators = [
     id: 1,
     name: "Nadir Toujaa",
     role: "Projectleider & WebDesign",
-    bio: "Placeholder",
+    bio: "Hey! Ik ben Nadir, en heb deze website gemaakt. In 2020-2021 ben ik begonnen met coden en heb ik via dat deze website gestart. Daarnaast heb ik ook experience met e-commerce, javascript en CSS. Dus was een website maken best makkelijk :) Ik heb een deel van de presentatie gemaakt en de website geheel gemaakt!",
     avatar: Nadir,
   },
   {
@@ -22,7 +22,7 @@ const creators = [
     id: 3,
     name: "Talha Demirci",
     role: "Onderzoek & Presentatie & Planning",
-    bio: "Placeholder",
+    bio: " Ik ben Talha en ik ben 17 jaar oud ik heb met het word document dus het basisplan geholpen en het afbeeldingen voor het website producten. En de prijzen waarmee dat komt ik heb ook nadir geholpen met de code die achter de website is en wat we met deze website wouwden doen.",
     avatar: Talha,
   },
 ];
